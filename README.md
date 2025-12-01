@@ -1,24 +1,24 @@
 # projeto_BruteForce_Medusa_e_KaliLinux
-Desafio DIO - Simulando um Ataque de Brute Force de Senhas com Medusa e Kali Linux
+Desafio DIO - Simulando um Ataque de Brute Force de Senhas com Medusa e Kali Linux<br>
 
-PASSWORD SPRAYING
-TESTA SENHA COMUM PARA VÁRIOS USUÁRIOS DIFERENTES
-tipo “empresa123” -  “empresa2025” e etc.
-como vai realizar a tentativa uma vez para cada usuário, normalmente o sistema não detecta
-CREDENTIAL STUFFING
-Usando credenciais vazadas (listas de credenciais)
-USANDO KALI LINUX E MEDUSA
-Hidra no kali
-Usa listas de pssowrd list e tenta em vários tipos de protocolos, ssh, ftp e etc.
-Ncrack
-John (the reapper) craqueador offline - Quebra de hash de senhas.
-Wpscan – identifica plugins e user do worpress e faz ataque de wordlist
-PATATOR – usuários experientes – consegue-se configurar diversos parâmetros do ataque. 
-MEDUSA – foco em ataques de rede (usa parâmetros personalizados em cada protocolo)
+<b>PASSWORD SPRAYING</b><br>
+TESTA SENHA COMUM PARA VÁRIOS USUÁRIOS DIFERENTES<br>
+tipo “empresa123” -  “empresa2025” e etc.<br>
+como vai realizar a tentativa uma vez para cada usuário, normalmente o sistema não detecta<br>
+CREDENTIAL STUFFING<br>
+Usando credenciais vazadas (listas de credenciais)<br><br>
+USANDO KALI LINUX E MEDUSA<br>
+Hidra no kali<br>
+Usa listas de pssowrd list e tenta em vários tipos de protocolos, ssh, ftp e etc.<br>
+Ncrack<br>
+John (the reapper) craqueador offline - Quebra de hash de senhas.<br>
+Wpscan – identifica plugins e user do worpress e faz ataque de wordlist<br>
+PATATOR – usuários experientes – consegue-se configurar diversos parâmetros do ataque.<br> 
+MEDUSA – foco em ataques de rede (usa parâmetros personalizados em cada protocolo)<br>
 muito utilizada quando se tem muitos usuários com senhas em paralelo. Múltiplas tags
-auditoria e relatórios de testes. Não muito adaptadas para ataques web. E sim para redes.
-PREPARAR O LABORATÓRIO COM KALI E METASPLOITABLE - criando VMs com o Oracle VirtualBox
-com as imagens do Kali Linux e Metaspoitable 2
+auditoria e relatórios de testes. Não muito adaptadas para ataques web. E sim para redes.<br>
+PREPARAR O LABORATÓRIO COM KALI E METASPLOITABLE - criando VMs com o Oracle VirtualBox<br>
+com as imagens do Kali Linux e Metaspoitable 2<br><br>
 
 ALCANÇAR A MÁQUINA VULNERÁVEL NO METASPLOITABLE
 
